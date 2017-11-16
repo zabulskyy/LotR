@@ -1,3 +1,3 @@
 public interface KickInterface {
-    void kick(Character c1, Character c2);
+    void kick(Hero c1, Hero c2);
 }

@@ -1,5 +1,5 @@
-public class Hobbit extends Character {
-    void kick(Character c) {
+class Hobbit extends Hero {
+    void kick(Hero c) {
         System.out.println(this.getName() + ": Qua qua qua");
     }
 

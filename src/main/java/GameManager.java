@@ -1,5 +1,5 @@
-public class GameManager {
-    static void fight(Character c1, Character c2) {
+class GameManager {
+    static void fight(Hero c1, Hero c2) {
 
         System.out.println("\nFirst character " + c1);
         System.out.println("\tversus");

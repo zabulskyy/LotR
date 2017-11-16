@@ -1,4 +1,4 @@
-public class Knight extends Character {
+class Knight extends Hero {
     private KickInterface kickInterface = new Sword();
 
     Knight() {
@@ -8,7 +8,7 @@ public class Knight extends Character {
     }
 
     @Override
-    void kick(Character c) {
+    void kick(Hero c) {
         if (c.getHp() < 10)
             kickInterface = (c1, c2) -> c2.setHp(0);
         kickInterface.kick(this, c);
